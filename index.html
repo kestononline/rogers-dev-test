@@ -1,0 +1,119 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Keston Charles">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rogers Development Test</title>
+
+<script src="js/main.js"></script>
+
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="css/widget.css" media="screen" rel="stylesheet">
+
+</head>
+
+<body class="en">
+
+        <div class="container">
+                <div class="content " role="main">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1>Rogers Front-End Development Test</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <section role="widget" aria-label="Weather">
+                                <!-- Weather Widget -->
+                                
+                                <div class="widget-container weather-widget region region-teal">
+                                    <div class="weather-highlighted">
+                                        <div class="weather-day clearfix su"><i class="icon-weather"></i><div class="inner"><strong class="temp">10&deg;</strong><span class="desc">Conditions</span><span class="hilo">10&deg;/2&deg;</span></div></div>
+                                        <div class="weather-day clearfix mo active"><i class="icon-weather"></i><div class="inner"><strong class="temp">15&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                        <div class="weather-day clearfix tu"><i class="icon-weather"></i><div class="inner"><strong class="temp">2&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                        <div class="weather-day clearfix we"><i class="icon-weather"></i><div class="inner"><strong class="temp">4&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                        <div class="weather-day clearfix th"><i class="icon-weather"></i><div class="inner"><strong class="temp">10&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                        <div class="weather-day clearfix fr"><i class="icon-weather"></i><div class="inner"><strong class="temp">11&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                        <div class="weather-day clearfix sa"><i class="icon-weather"></i><div class="inner"><strong class="temp">8&deg;</strong><span class="desc">Conditions</span><span class="hilo">0&deg;/0&deg;</span></div></div>
+                                    </div>
+                                    <div class="weather-location clearfix">
+                                        <strong aria-label="Toronto">Toronto</strong>
+                                        <form id="weather-location-search" class="weather-query-form" method="post">
+                                            <input type="text" name="search" value="" class="weather-search-field" />
+                                            <input type="submit" value="" class="btn weather-search-submit" name="search-send" />
+                                        </form>
+                                    </div>
+                                    <ul class="weather-forecast clearfix">
+                                        <li><a href="javascript:;" id="su" class="su"><strong class="day" aria-label="Sunday,">su</strong><span class="forecast" aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="mo" class="mo active"><strong class="day" aria-label="Monday,">mo</strong><span class="forecast" aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="tu" class="tu"><strong class="day" aria-label="Tuesday,">tu</strong><span class="forecast"  aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="we" class="we"><strong class="day" aria-label="Wednesday,">we</strong><span class="forecast"  aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="th" class="th"><strong class="day" aria-label="Thursday,">th</strong><span class="forecast"  aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="fr" class="fr"><strong class="day" aria-label="Friday,">fr</strong><span class="forecast"  aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                        <li><a href="javascript:;" id="sa" class="sa"><strong class="day" aria-label="Saturday,">sa</strong><span class="forecast"  aria-label="Sunny weather,"><i class="icon-weather icon-weather-1"></i></span><span class="temp" aria-label="Temperature 3&deg;. High of 4&deg;. Low of 0&deg;.">3&deg;</span></a></li>
+                                </ul>
+                                
+                                    </div>
+                                <!--/ Weather Widget --> 
+                            </section>  
+                            </div>
+
+                            <div class="col-sm-5">
+                                <!-- SlideShow -->
+                                <div class="widget-container widget-gallery region region-blue">
+                                    <div class="inner">
+                                        <div id="myCarousel" class="carousel slide" data-interval="20000">
+                                            <!-- SlideShow list -->
+                                            <div class="slideshow-inner">
+                                                <div class="active item"><a href="images/slideshow/slide1.png" class="slidePhoto" data-rel="slidePhoto" title="SlideShow Image"><img src="images/slideshow/slide1.png" alt="" /></a></div>
+                                                <div class="item"><a href="images/slideshow/slide2.png" class="slidePhoto" data-rel="slidePhoto" title="SlideShow Image"><img src="images/slideshow/slide2.png" alt="" /></a></div>
+                                                <div class="item"><a href="images/slideshow/slide3.png" class="slidePhoto" data-rel="slidePhoto" title="SlideShow Image"><img src="images/slideshow/slide3.png" alt="" /></a></div>
+                                                <div class="item"><a href="images/slideshow/slide4.png" class="slidePhoto" data-rel="slidePhoto" title="SlideShow Image"><img src="images/slideshow/slide4.png" alt="" /></a></div>
+                                                <div class="item"><a href="images/slideshow/slide5.png" class="slidePhoto" data-rel="slidePhoto" title="SlideShow Image"><img src="images/slideshow/slide5.png" alt="" /></a></div>
+                                            </div>
+                                            <div class="slideshow-controls">
+                                                <!-- SlideShow indicators -->
+                                                <ol class="slideshow-indicators">
+                                                    <li data-target="#slideShow" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#slideShow" data-slide-to="1"></li>
+                                                    <li data-target="#slideShow" data-slide-to="2"></li>
+                                                    <li data-target="#slideShow" data-slide-to="3"></li>
+                                                    <li data-target="#slideShow" data-slide-to="4"></li>
+                                                </ol>
+                                                <!-- Slide navigation -->
+                                                <a class="slideshow-control left" href="#slideShow" data-slide="prev"></a>
+                                                <a class="slideshow-control right" href="#slideShow" data-slide="next"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/ SlideShow -->
+                            </div>
+
+                            <div class="col-sm-3">
+                                <!-- Social Media -->
+                                <div class="widget-container widget-profile region region-yellow">
+                                        <div class="inner">
+                                            <h5>Keston Charles</h5>
+                                            <span class="subtitle">Interface Engineer</span>
+                                            <div class="profile"><img src="images/profiles/profile.png" alt="Profile Photo" /></div>
+                                            <div class="followers"><span class="counter">125</span> followers</div>
+                                            <a href="#" class="btn btn-brown btn-follow"><span><i></i>Follow</span></a>
+                                        </div>
+                                    </div>
+                                <!--/ Social Media -->
+                            </div>
+                        </div>
+                </div>
+        </div>
+
+
+
+</body>
